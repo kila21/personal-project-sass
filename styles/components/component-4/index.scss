@@ -1,0 +1,58 @@
+/*
+-----------
+about company section
+-------------
+*/
+@import "../../shared";
+@import "../../palette";
+.about {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  text-align: left;
+  justify-content: space-evenly;
+  background-color: #ecf0f1;
+}
+
+.about__section1 {
+  h2 {
+    font-family: Lato-Light;
+    font-size: 36px;
+    padding-top: 91px;
+    color: $header-color;
+  }
+}
+
+.about__p {
+  font-family: Lato-Regular;
+  font-size: 14px;
+  counter-reset: #a1b1bc;
+  margin-top: 15.5px;
+  width: 570px;
+  line-height: 24px;
+  color: $paragraph-color;
+}
+
+.second {
+  margin-top: 22px;
+}
+
+.about__btn {
+  width: 173px;
+  height: 50px;
+  margin-top: 28px;
+  color: #34495e;
+  font-family: Lato-Black;
+  font-size: 16px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 1px solid #e5e5e5;
+}
+
+.about__section2 {
+  img {
+    margin-top: 128px;
+    margin-left: 63px;
+  }
+}

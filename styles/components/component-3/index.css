@@ -1,119 +1,17 @@
-/* 
----------
-info Section
----------
-*/
-.info {
-  display: flex;
-  width: 100%;
-  height: 436px;
-  /* margin-top: 124px; */
-  /* margin-left: 373.9px; */
-  background-color: white;
-}
+/* Error: Undefined mixin.
+ *    ,
+ * 21 |   @include center;
+ *    |   ^^^^^^^^^^^^^^^
+ *    '
+ *   components\component-3\index.scss 21:3  root stylesheet */
 
-.info__continer {
-  display: flex;
-  margin-top: 124px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 21 \2502    @include center;\d\a    \2502    ^^^^^^^^^^^^^^^\a    \2575 \a   components\\component-3\\index.scss 21:3  root stylesheet";
 }
-
-.info__div {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 270px;
-  height: 210px;
-  border: 1px solid #dbe7ef;
-  margin-right: 28px;
-  border-radius: 5px;
-  position: relative;
-}
-
-.info__div {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 270px;
-  height: 210px;
-  border: 1px solid #dbe7ef;
-  margin-right: 28px;
-  border-radius: 5px;
-  position: relative;
-}
-
-.info__div {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 270px;
-  height: 210px;
-  border: 1px solid #dbe7ef;
-  margin-right: 28px;
-  border-radius: 5px;
-  position: relative;
-}
-
-.info__div {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 270px;
-  height: 210px;
-  border: 1px solid #dbe7ef;
-  margin-right: 28px;
-  border-radius: 5px;
-  position: relative;
-}
-
-.info__div h4 {
-  font-family: Lato-Regular;
-  width: 270px;
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-  color: #2c3e50;
-  padding-top: 50.8px;
-}
-
-.info__div p {
-  font-family: Lato-Regular;
-  text-align: center;
-  width: 187px;
-  font-size: 14px;
-  color: #a1b1bc;
-  margin-top: 11.7px;
-  line-height: 24px;
-  text-indent: 3px;
-}
-
-.circle1 {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  border: 1px solid #dbe7ef;
-  top: -30px;
-  background-color: white;
-}
-
-.circle2 {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: 1px solid #dbe7ef;
-  top: -25px;
-}
-
-.info__div img {
-  position: absolute;
-  width: 16px;
-  height: 18px;
-  top: -9px;
-}
-
-/*# sourceMappingURL=index.css.map */

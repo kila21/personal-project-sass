@@ -13,8 +13,8 @@
   src: url(/fonts/Lato/Lato-Black.ttf);
 }
 
-@mixin Center {
-  top: 50%;
+@mixin center {
+  position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
 }

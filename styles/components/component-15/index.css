@@ -1,0 +1,160 @@
+/*
+-------
+about us
+--------
+*/
+.about-us {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 607px;
+  background: #1a1c27;
+}
+
+.about__continer1 {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about__continer1-content1 {
+  display: flex;
+  margin-top: 7px;
+}
+.about__continer1-content1 div {
+  width: 5px;
+  height: 18px;
+  background: #1abc9c;
+}
+.about__continer1-content1 h3 {
+  font-family: Lato-Black;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  margin-left: 21px;
+}
+
+.about__continer1-content2 {
+  margin-top: 50px;
+}
+.about__continer1-content2 div {
+  display: flex;
+}
+.about__continer1-content2 h1 {
+  font-family: Lato-Regular;
+  font-weight: normal;
+  font-size: 59.49px;
+  line-height: 13.77px;
+  text-align: left;
+  color: white;
+  margin-top: 20px;
+}
+.about__continer1-content2 p {
+  margin-top: 47px;
+  width: 370.26px;
+  margin-left: 1px;
+  font-family: Lato-Regular;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  color: #a1b1bc;
+}
+.about__continer1-content2 input {
+  width: 370px;
+  height: 50px;
+  border-radius: 5px;
+  background: #222533;
+  margin-top: 25px;
+}
+
+.about__input {
+  display: flex;
+  position: relative;
+}
+.about__input div {
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
+  background: #1abc9c;
+  position: absolute;
+  right: 2px;
+  top: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__input i {
+  font-size: 24px;
+  padding-top: 4px;
+}
+
+.about__continer2 {
+  margin-top: 88px;
+  margin-left: 26px;
+  width: 258px;
+}
+
+.about__continer2-content2-header h3 {
+  width: 258.8px;
+  height: 101.88px;
+  font-family: Lato;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: left;
+  color: #a1b1bc;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+.about__continer2-white-content .content__white-hover:hover {
+  background-color: #1abc9c;
+}
+
+.about__continer2 .continer-2-content {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.about__continer3 {
+  margin-left: 143px;
+  margin-top: 89px;
+}
+.about__continer3 h3 {
+  margin-top: -1.5px;
+  margin-left: 18px;
+}
+.about__continer3 p {
+  font-family: Lato;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: left;
+  color: #1abc9c;
+  margin-top: 26px;
+}
+
+.about__continer3-continer {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__continer3-content {
+  display: flex;
+  margin-top: 58px;
+}
+.about__continer3-content div {
+  width: 85px;
+  height: 85px;
+  background: white;
+  margin-right: 10px;
+}
+
+.about__continer3-content2 {
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=index.css.map */

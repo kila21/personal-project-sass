@@ -17,24 +17,21 @@ navigation
 .logo__div {
   display: flex;
   margin-top: 24px;
-}
-
-.logo__div img {
-  margin: 0;
-}
-
-.logo__div h3 {
-  font-family: Lato-Regular;
-  font-size: 35.69px;
-  color: #34495e;
-  margin-left: 14.1px;
-  opacity: 100%;
-  font-weight: 300;
-}
-
-.logo__div span {
-  font-family: Lato-Black;
-  color: #2c3e50;
+  img {
+    margin: 0;
+  }
+  h3 {
+    font-family: Lato-Regular;
+    font-size: 35.69px;
+    color: #34495e;
+    margin-left: 14.1px;
+    opacity: 100%;
+    font-weight: 300;
+  }
+  span {
+    font-family: Lato-Black;
+    color: #2c3e50;
+  }
 }
 
 .nav-ul {

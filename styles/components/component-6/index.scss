@@ -1,0 +1,79 @@
+/*
+----------
+services
+----------
+*/
+
+.services {
+  width: 100%;
+  height: 534px;
+  background-color: white;
+  position: relative;
+}
+
+.services__header {
+  width: 630px;
+  margin-top: 92px;
+  @include center;
+  text-align: center;
+  h3 {
+    font-family: Lato-Light;
+    font-size: 36px;
+    color: $header-color;
+    font-weight: 400;
+  }
+  p {
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: $paragraph-color;
+    margin-top: 11px;
+    line-height: 24px;
+  }
+}
+
+.services__content-continer {
+  @include center;
+  top: 50%;
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  margin-top: 45px;
+}
+
+.services__content {
+  text-align: center;
+  width: 480px;
+  border: 1px solid #ecf0f1;
+  img {
+    margin-top: 47px;
+  }
+  h5 {
+    font-family: Lato-Regular;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 37px;
+  }
+  p {
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #a1b1bc;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-left: 70px;
+    width: 339px;
+  }
+  .email__header {
+    margin-top: 33px;
+    margin-left: 1px;
+  }
+  .email__header2 {
+    margin-top: 39px;
+    margin-right: 3px;
+  }
+}
+
+.services__content-active {
+  background-color: #ecf0f1;
+}

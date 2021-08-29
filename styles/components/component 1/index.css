@@ -1,145 +1,17 @@
-@font-face {
-  font-family: Lato-Regular;
-  src: url(/fonts/Lato/Lato-Regular.ttf);
-}
-@font-face {
-  font-family: Lato-Light;
-  src: url(/fonts/Lato/Lato-Light.ttf);
-}
-@font-face {
-  font-family: Lato-Black;
-  src: url(/fonts/Lato/Lato-Black.ttf);
-}
-header {
-  max-width: 100%;
-  margin-top: 0;
-  background-color: #222533;
-  height: 1280px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 6 |   background-color: $background-color;
+ *   |                     ^^^^^^^^^^^^^^^^^
+ *   '
+ *   components\component 1\index.scss 6:21  root stylesheet */
 
-.header__div {
-  width: 1052px;
-  padding-top: 450px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 6 \2502    background-color: $background-color;\d\a   \2502                      ^^^^^^^^^^^^^^^^^\a   \2575 \a   components\\component 1\\index.scss 6:21  root stylesheet";
 }
-
-.header__p-first {
-  font-family: Lato-Regular;
-  font-size: 30px;
-  letter-spacing: 9px;
-}
-
-.header__p-first span {
-  color: #1abc9c;
-  width: auto;
-  height: auto;
-}
-
-.header__p-second {
-  font-family: Lato-Light;
-  font-size: 30px;
-  margin-top: 11px;
-  margin-left: -9px;
-  line-height: 36px;
-  letter-spacing: 0;
-}
-
-.header__header {
-  font-size: 3rem;
-  font-family: Lato-Black;
-  margin: 0;
-  margin-top: 9px;
-  margin-left: -10px;
-}
-
-.header__div-button {
-  display: flex;
-  width: 420px;
-  height: 60px;
-  margin-top: 40px;
-}
-
-.header__btn {
-  width: 200px;
-  height: 60px;
-  margin-right: 20px;
-  text-transform: uppercase;
-  font-family: Lato-Black;
-  color: white;
-  font-size: 18px;
-  border-radius: 3px;
-}
-
-.header__btn-first {
-  background-color: #222533;
-  border: 2px solid #ffffff;
-  opacity: 100%;
-}
-
-.header__btn:last-child {
-  margin: 0;
-  background-color: #1abc9c;
-  border: none;
-}
-
-.header__div-slide {
-  margin-top: 40px;
-  width: 86px;
-  height: 14px;
-  display: flex;
-}
-
-.header__div-slide-circle1 {
-  width: 14px;
-  height: 14px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.header__div-slide-circle2 {
-  width: 14px;
-  height: 14px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.header__div-slide-circle3 {
-  width: 14px;
-  height: 14px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.header__div-slide-circle4 {
-  width: 14px;
-  height: 14px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.circle-active {
-  width: 6px;
-  height: 6px;
-  background-color: #1abc9c;
-  margin: auto;
-  border-radius: 50%;
-  margin-top: 50%;
-  transform: translate(0, -50%);
-}
-
-.circle-last {
-  margin: 0;
-}
-
-/*# sourceMappingURL=index.css.map */

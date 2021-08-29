@@ -1,0 +1,110 @@
+/*
+----------
+capability section
+-----------
+*/
+
+@import "mixins";
+
+.capability {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  background-color: $background-color;
+  position: relative;
+}
+
+.capability__section1 {
+  @include center;
+
+  width: 630px;
+  text-align: center;
+  margin-top: 92px;
+  color: white;
+  h2 {
+    font-family: Lato-Light;
+    font-size: 36px;
+  }
+  p {
+    font-family: Lato-Regular;
+    font-size: 14px;
+    margin-top: 11px;
+    line-height: 24px;
+  }
+}
+
+.capability__section2 {
+  @include center;
+  top: 50%;
+  display: flex;
+  margin-top: 54px;
+}
+@for $i from 1 through 4 {
+  .section2__circle2-#{$i} {
+    width: 188px;
+    height: 188px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+  }
+}
+.section2__circles {
+  width: 260px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  h4 {
+    font-family: Lato-Regular;
+    font-size: 18px;
+    color: white;
+    margin-top: 25px;
+  }
+  p {
+    font-family: lato-Regular;
+    font-size: 14px;
+    color: white;
+    margin-top: 15px;
+    line-height: 24px;
+  }
+}
+
+.section2__circle1 {
+  @include circle1;
+  span {
+    position: absolute;
+    font-family: Lato-Regular;
+    top: 88px;
+    left: 83px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4e4e4e;
+  }
+}
+$var: 1, 2, 3, 4;
+@each $i in $var {
+  .section2__circle3-#{$i} {
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #ecf0f1;
+    top: 49px;
+    left: 49px;
+  }
+}
+
+.circle1_active {
+  @extend .section2__circle1;
+  background-color: #21c2f8;
+}
+.circle2_active {
+  background-color: $background-color;
+}
+
+.circle2_active + span {
+  color: white;
+}

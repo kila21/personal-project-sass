@@ -1,0 +1,349 @@
+/* tables-
+-----------
+*/
+
+.tables {
+  width: 100%;
+  height: 1098px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.tables__header {
+  width: 630px;
+  height: 196px;
+  color: #2c3e50;
+  font-family: Lato-Light;
+  text-align: center;
+  @include center;
+  margin-top: 91px;
+  h3 {
+    font-size: 36px;
+  }
+  p {
+    color: #2c3e50;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Lato-Regular;
+    margin-top: 7px;
+  }
+}
+
+.grid {
+  background-color: white;
+  @include center;
+  top: 50%;
+  display: grid;
+  grid-template-columns: 1171px;
+  grid-template-rows: 152px 323px;
+  margin-top: -14px;
+  width: 1171px;
+  height: 475px;
+
+  background-color: #eaebec;
+
+  font-family: Lato-Regular;
+  color: #a1b1bc;
+  font-weight: bold;
+}
+
+.grid__continer1 {
+  text-transform: capitalize;
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  grid-template-rows: 62px 88px;
+  grid-template-columns: repeat(4 293px);
+  div {
+    /* border: 1px solid white; */
+    width: 290px;
+    text-align: center;
+    /* font-size: 24px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  span {
+    font-size: 14px;
+    text-transform: lowercase;
+    margin-top: -11px;
+  }
+}
+
+.continer1-col1 {
+  grid-row: 1/3;
+  grid-column: 1/2;
+  font-size: 24px;
+}
+
+.continer1-col2 {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  background-color: #34495e;
+  color: white;
+  font-size: 24px;
+  font-family: Lato-Regular;
+}
+
+.continer1-col3 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  background-image: linear-gradient(to right, #1fd1b4, #45d1fe);
+  color: white;
+  font-size: 48px;
+
+  padding-bottom: 5px;
+}
+
+.continer1-col4 {
+  font-size: 24px;
+  grid-row: 1/2;
+  grid-column: 3/4;
+  margin-top: -17px;
+  background-color: #34495e;
+  color: white;
+}
+
+.continer1-col5 {
+  grid-row: 2/3;
+  grid-column: 3/4;
+  background-image: linear-gradient(to right, #1fd1b4, #45d1fe);
+  color: white;
+  font-size: 48px;
+  padding-bottom: 5px;
+}
+
+.continer1-col6 {
+  font-size: 24px;
+  background-color: #34495e;
+  grid-row: 1/2;
+  grid-column: 4/5;
+  color: white;
+}
+
+.continer1-col7 {
+  grid-row: 2/3;
+  grid-column: 4/5;
+  background-image: linear-gradient(to right, #1fd1b4, #45d1fe);
+  color: white;
+  font-size: 48px;
+  padding-bottom: 5px;
+}
+
+.grid__continer2 {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  grid-template-columns: repeat(4 293px);
+  grid-template-rows: repeat(6, 39px) 90px;
+  font-size: 14px;
+  font-family: Lato-Regular;
+
+  div {
+    border: 1px solid white;
+    border-bottom: none;
+    width: 290px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    width: 120px;
+    height: 32px;
+    border-radius: 2px;
+    background-color: #1abc9c;
+    color: white;
+    font-family: Lato-Black;
+    font-size: 15px;
+    border: none;
+    padding-bottom: 2px;
+    padding-left: 2px;
+  }
+}
+
+.continer2-col1 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  background-color: #f6f6f6;
+}
+.continer2-col2 {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.continer2-col3 {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  background-color: #f6f6f6;
+}
+.continer2-col4 {
+  grid-row: 4/5;
+  grid-column: 1/2;
+}
+.continer2-col5 {
+  grid-row: 5/6;
+  grid-column: 1/2;
+  background-color: #f6f6f6;
+}
+.continer2-col6 {
+  grid-row: 6/7;
+  grid-column: 1/2;
+}
+.continer2-col7 {
+  grid-row: 7/8;
+  grid-column: 1/2;
+  background-color: #f6f6f6;
+}
+
+.continer2-col8 {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+.continer2-col9 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+.continer2-col10 {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+.continer2-col11 {
+  grid-row: 4/5;
+  grid-column: 2/3;
+}
+.continer2-col12 {
+  grid-row: 5/6;
+  grid-column: 2/3;
+}
+.continer2-col13 {
+  grid-row: 6/7;
+  grid-column: 2/3;
+}
+.continer2-col14 {
+  grid-row: 7/10;
+  grid-column: 2/3;
+}
+
+.continer2-col15 {
+  grid-row: 1/2;
+  grid-column: 3/4;
+}
+.continer2-col16 {
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+.continer2-col17 {
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
+.continer2-col18 {
+  grid-row: 4/5;
+  grid-column: 3/4;
+}
+.continer2-col19 {
+  grid-row: 5/6;
+  grid-column: 3/4;
+}
+.continer2-col20 {
+  grid-row: 6/7;
+  grid-column: 3/4;
+}
+.continer2-col21 {
+  grid-row: 7/10;
+  grid-column: 3/4;
+}
+
+.continer2-col22 {
+  grid-row: 1/2;
+  grid-column: 4/5;
+}
+.continer2-col23 {
+  grid-row: 2/3;
+  grid-column: 4/5;
+}
+.continer2-col24 {
+  grid-row: 3/4;
+  grid-column: 4/5;
+}
+.continer2-col25 {
+  grid-row: 4/5;
+  grid-column: 4/5;
+}
+.continer2-col26 {
+  grid-row: 5/6;
+  grid-column: 4/5;
+}
+.continer2-col27 {
+  grid-row: 6/7;
+  grid-column: 4/5;
+}
+.continer2-col28 {
+  grid-row: 7/10;
+  grid-column: 4/5;
+}
+
+.grid__continer3 {
+  margin-top: 100px;
+  width: 1170px;
+  height: 150px;
+  background: #fff;
+  border: 1px solid #eaebec;
+  text-align: left;
+  display: flex;
+
+  h3 {
+    font-family: Lato-Light;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: left;
+    color: #2c3e50;
+    margin-top: 29px;
+    margin-left: 30px;
+  }
+}
+
+.continer3__content {
+  display: flex;
+  p {
+    width: 823.5px;
+    height: 136.82px;
+    font-family: Lato;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    color: #a1b1bc;
+    margin-left: 30px;
+    margin-top: 17px;
+    font-family: Lato-Regular;
+  }
+  button {
+    width: 176px;
+    height: 50px;
+    border-radius: 3px;
+    background: #1abc9c;
+    box-shadow: 0px 2px 0px #16a085;
+    margin-left: 76px;
+
+    font-family: Lato-Regular;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    padding-right: 2px;
+    padding-bottom: 5px;
+    color: #fff;
+  }
+}
+
+.continer3__green {
+  width: 10px;
+  height: 140px;
+  background: #1abc9c;
+  margin-left: 5px;
+  margin-top: 3px;
+}
