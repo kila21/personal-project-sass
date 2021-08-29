@@ -1,0 +1,3 @@
+@function circle($n) {
+  @return $circle-width - $n;
+}

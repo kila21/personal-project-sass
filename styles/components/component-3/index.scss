@@ -1,0 +1,70 @@
+/* 
+---------
+info Section
+---------
+*/
+
+@import "../../palette";
+@import "info-continer";
+@import "mixins";
+.info {
+  display: flex;
+  width: 100%;
+  height: 436px;
+  /* margin-top: 124px; */
+  /* margin-left: 373.9px; */
+  background-color: white;
+}
+
+.info__continer {
+  display: flex;
+  margin-top: 124px;
+}
+@for $i from 1 through 4 {
+  .info__div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 210px;
+    border: 1px solid #dbe7ef;
+    margin-right: 28px;
+    border-radius: 5px;
+    position: relative;
+  }
+}
+
+.info__div h4 {
+  @include header;
+}
+
+.info__div p {
+  @include paragraph;
+}
+$circle-width: 60px;
+.circle1 {
+  position: absolute;
+  width: $circle-width;
+  height: $circle-width;
+  border-radius: 50%;
+  border: 1px solid #dbe7ef;
+  top: -30px;
+  background-color: white;
+}
+
+.circle2 {
+  position: absolute;
+  width: circle(10);
+  height: circle(10);
+  border-radius: 50%;
+  border: 1px solid #dbe7ef;
+  top: -25px;
+}
+
+.info__div img {
+  position: absolute;
+  width: 16px;
+  height: 18px;
+  top: -9px;
+}
