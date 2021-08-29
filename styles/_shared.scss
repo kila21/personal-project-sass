@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Lato-Regular;
+  src: url(/fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lato-Light;
+  src: url(/fonts/Lato/Lato-Light.ttf);
+}
+
+@font-face {
+  font-family: Lato-Black;
+  src: url(/fonts/Lato/Lato-Black.ttf);
+}
+
+@mixin Center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
